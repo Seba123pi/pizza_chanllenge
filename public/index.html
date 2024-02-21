@@ -1,32 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+<html lang="es">
   <body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pizza</title>
+
+<div class="nav-container">
+  <div class="logo">
+      <img src="img/logo-2.jpg">
+  </div>
+
+  <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+  </div>
+
+  <nav class="nav-bar">
+      <ul>
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#menu">Menu</a></li>
+      </ul>
+  </nav>
+</div>
+
+<div class="content">
+  <div class="content-box">
+      <h2>Blabla Pizza</h2>
+  </div>
+</div>
+    
+    <title>Pizzeria</title>
+  </head>
+  <div class="about" id="about">
+    <div class="about-box">
+        <div class="about-image">
+            <img src="img/about-image.jpeg">
+        </div>
+        <div class="about-body">
+
+            <h3>Sobre nosostros</h3>
+
+            <p>¡Bienvenido a nuestra pizzería! Te ofrecemos pizzas artesanales preparadas con ingredientes frescos y de alta calidad. Desde las clásicas margarita 
+              hasta las exquisitas opciones vegetarianas, cada pizza se hornea en nuestro 
+              horno de piedra para garantizar una masa perfectamente crujiente. 
+              Ven y disfruta de una experiencia gastronómica única en un ambiente acogedor y con un servicio excepcional. 
+              ¡Te esperamos con los brazos abiertos para compartir nuestra pasión por la pizza contigo!</p>
+          
+        </div>
+    </div>
+</div>
+
+<div class="services" id="services">
+    <div class="services-box">
+        <div class="services-title">
+            <h2><span>Nuestros Servicios</span> </h2>
+            <label>Servicio de pizza a domicilio</label>
+            <label></label>
+        </div>
+        <div class="services-item">
+            <div class="services-items">
+                <img src="img/services-1.png">
+                <h3>Comida saludable</h3>
+                <label>La empresa en sí es una empresa muy exitosa. Éste, el inventor.</label>
+            </div>
+            <div class="services-items">
+                <img src="img/services-2.png">
+                <h3>Maestros Cocineros</h3>
+                <label>Los mejores chefs</label>
+            </div>
+            <div class="services-items">
+                <img src="img/services-3.png">
+                <h3>Rapida entrega </h3>
+                <label>La manera mas rapida de llevar tu pedido</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="div-header" id="chefs">
+    <h3><span>Blabla</span> Chefs</h3>
+</div>
+
+<div class="chefs">
+    <div class="chefs-box">
+        <div class="chef-card">
+            <div class="chef-image">
+                <img src="img/chef-1.jpg">
+            </div>
+            <div class="chef-body">
+                <h3>Juan Gonzales </h3>
+                <p>Cocinero experto en hacer pizzas al horno</p>
+            </div>
+        </div>
+        <div class="chef-card">
+            <div class="chef-image">
+                <img src="img/chef-2.jpg">
+            </div>
+            <div class="chef-body">
+                <h3>Luis miguel Sol</h3>
+                <p>El mejor de todos para ejecutar tateas dificiles</p>
+            </div>
+        </div>
+        <div class="chef-card">
+            <div class="chef-image">
+                <img src="img/chef-3.jpg">
+            </div>
+            <div class="chef-body">
+                <h3>Jefe maestro</h3>
+                <p>EL jefe que esta acargo que todas las pizzas sean perfectas.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="div-header" id="menu">
+    <h3><span>Blabla Pizza</span> Menu</h3>
+</div>
+
+<div class="menu" id="menu">
+    <div class="menu-box">
+        <div class="card">
+
+            <div class="card-image">
+                <img src="img/capricciosa.jpg">
+            </div>
+
+            <div class="card-body">
+                <h4>Capricciosa</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="cash-div">
+                    <label class="cash">15.99 $</label>
+                </div>
+                <a href="#">Buy</a>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/marinara.jpg">
+            </div>
+            <div class="card-body">
+                <h4>Marinara</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <label class="cash">11.99 $</label>
+                <a href="#">Buy</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/frutti-dim-mare.jpg">
+            </div>
+            <div class="card-body">
+                <h4>Frutti Dim Mare</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <label class="cash">14.99 $</label>
+                <a href="#">Buy</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/hawaiian.jpg">
+            </div>
+            <div class="card-body">
+                <h4>Hawaiian</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <label class="cash">19.99 $</label>
+                <a href="#">Buy</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/neapolitan.jpg">
+            </div>
+            <div class="card-body">
+                <h4>Neapolitan</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="cash-div">
+                    <label class="cash">17.99 $</label>
+                </div>
+                <a href="#">Buy</a>
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/marinara.jpg">
+            </div>
+            <div class="card-body">
+                <h4>Marinara</h4>
+                <label></label>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <label class="cash">16.99 $</label>
+                <a href="#">Buy</a>
+            </div>
+        </div>
+        
+
+
+
+<script src="script.js"></script>
+
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
